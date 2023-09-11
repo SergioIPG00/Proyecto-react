@@ -1,0 +1,164 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "title": "The Legend of Zelda: Breath of the Wild",
+            "platform": "Nintendo Switch",
+            "genre": "Action-Adventure",
+            "release_date": "2017-03-03",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNeEt9Y3KzhFEH4RZRQGprXuvRKTXcKf5YudLrFPfutBNLQuwDYspDI1bunxV6NhHvQo8&usqp=CAU"
+        },
+        {
+            "id": 2,
+            "title": "Super Mario Odyssey",
+            "platform": "Nintendo Switch",
+            "genre": "Platform",
+            "release_date": "2017-10-27",
+            "image": "https://media.vandal.net/ivandal/11/60/1146x600/5/5-2023/2023522338074_1.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Red Dead Redemption 2",
+            "platform": "PS4, Xbox One, PC",
+            "genre": "Action-Adventure",
+            "release_date": "2018-10-26",
+            "image": "https://i.blogs.es/169695/red0/840_560.jpg"
+        },
+        {
+            "id": 4,
+            "title": "The Witcher 3: Wild Hunt",
+            "platform": "PC, PS4, Xbox One",
+            "genre": "RPG",
+            "release_date": "2015-05-19",
+            "image": "https://areajugones.sport.es/wp-content/uploads/2022/12/the-witcher-3-wild-hunt-ok.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Dark Souls III",
+            "platform": "PC, PS4, Xbox One",
+            "genre": "Action RPG",
+            "release_date": "2016-03-24",
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/capsule_616x353.jpg?t=1682651227"
+        },
+        {
+            "id": 6,
+            "title": "Overwatch",
+            "platform": "PC, PS4, Xbox One",
+            "genre": "First-Person Shooter",
+            "release_date": "2016-05-24",
+            "image": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltc5e8f5bdb29916db/64cd4c11c45759478fa1f861/S6_Overview_Thumbnail.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Minecraft",
+            "platform": "Multiple Platforms",
+            "genre": "Sandbox",
+            "release_date": "2011-11-18",
+            "image": "https://www.minecraft.net/content/dam/games/minecraft/key-art/SUPM_Game-Image_One-Vanilla_672x400.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Fortnite",
+            "platform": "Multiple Platforms",
+            "genre": "Battle Royale",
+            "release_date": "2017-07-25",
+            "image": "https://i.blogs.es/a4641d/fortnite2021/1366_2000.jpeg"
+        },
+        {
+            "id": 9,
+            "title": "God of War",
+            "platform": "PS4",
+            "genre": "Action-Adventure",
+            "release_date": "2018-04-20",
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/capsule_616x353.jpg?t=1650554420"
+        },
+        {
+            "id": 10,
+            "title": "Sekiro: Shadows Die Twice",
+            "platform": "PC, PS4, Xbox One",
+            "genre": "Action-Adventure",
+            "release_date": "2019-03-22",
+            "image": "https://cdn.akamai.steamstatic.com/steam/apps/814380/capsule_616x353.jpg?t=1678991267"
+        },
+        {
+            "id": 11,
+            "title": "Animal Crossing: New Horizons",
+            "platform": "Nintendo Switch",
+            "genre": "Simulation",
+            "release_date": "2020-03-20",
+            "image": "https://gaming-cdn.com/images/products/4809/616x353/animal-crossing-new-horizons-switch-switch-juego-nintendo-eshop-europe-cover.jpg?v=1650529843"
+        },
+        {
+            "id": 12,
+            "title": "Final Fantasy VII Remake",
+            "platform": "PS4",
+            "genre": "RPG",
+            "release_date": "2020-04-10",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyYoQ8_4wY9n5L9NVAyRVZWq7AYS_Qg4T_qvzOVAcUuICX3HighXrnoe0NBMmXx62qrmw&usqp=CAU"
+        },
+        {
+            "id": 13,
+            "title": "Doom Eternal",
+            "platform": "PC, PS4, Xbox One",
+            "genre": "First-Person Shooter",
+            "release_date": "2020-03-20",
+            "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/capsule_616x353.jpg?t=1693933695"
+        },
+        {
+            "id": 14,
+            "title": "Cyberpunk 2077",
+            "platform": "PC, PS4, Xbox One",
+            "genre": "RPG",
+            "release_date": "2020-12-10",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qwrR8tEaZYJjxd-W08aj6_hGFWOXLTcV3RaoGT5dRJvXeHNAu-mb1w3ft1xBMKazEWY&usqp=CAU"
+        },
+        {
+            "id": 15,
+            "title": "Resident Evil 7: Biohazard",
+            "platform": "PC, PS4, Xbox One",
+            "genre": "Horror",
+            "release_date": "2017-01-24",
+            "image": "https://static-abcblogs.abc.es/wp-content/uploads/sites/97/2018/04/resident-evil-7-biohazard-en-espanol-D_NQ_NP_990715-MLA26546800369_122017-F.jpg"
+        },
+        {
+            "id": 16,
+            "title": "Apex Legends",
+            "platform": "PC, PS4, Xbox One",
+            "genre": "Battle Royale",
+            "release_date": "2019-02-04",
+            "image": "https://i.blogs.es/3c4365/portada-mejores-personajes-apex-legends/840_560.jpeg"
+        },
+        {
+            "id": 17,
+            "title": "Ghost of Tsushima",
+            "platform": "PS4",
+            "genre": "Action-Adventure",
+            "release_date": "2020-07-17",
+            "image": "https://omggamer.com/wp-content/uploads/2022/12/Ghost-of-Tsushima-2-Release-Date-Trailer-Rumors.jpg"
+        },
+        {
+            "id": 18,
+            "title": "Celeste",
+            "platform": "Multiple Platforms",
+            "genre": "Platformer",
+            "release_date": "2018-01-25",
+            "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000006442/691ba3e0801180a9864cc8a7694b6f98097f9d9799bc7e3dc6db92f086759252"
+        },
+        {
+            "id": 19,
+            "title": "The Last of Us Part II",
+            "platform": "PS4",
+            "genre": "Action-Adventure",
+            "release_date": "2020-06-19",
+            "image": "https://i.ytimg.com/vi/tl9ITPJpw3c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBjeZJMeE1BOE9ZO7IWUte-Ux36ZA"
+        },
+        {
+            "id": 20,
+            "title": "Hollow Knight",
+            "platform": "Multiple Platforms",
+            "genre": "Action-Adventure",
+            "release_date": "2017-02-24",
+            "image": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51"
+        }
+    ]
+}
