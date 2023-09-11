@@ -5,27 +5,26 @@ import SearchBar from './components/searchBar';
 import Profile from './components/profile';
 
 function App() {
-  const [showProfile, setshowProfile] = useState(true);
+  const [section, setSection] = useState('perfil');
+  const [searchTerm, setSearchTerm] = useState("");
 
   const onLogoClick = () => {
-    if (showProfile) {
-      setshowProfile(false);
-    }
+    setSection('posts');
   }
 
   const showMain = () => {
-    setshowProfile(true);
+    setSection('perfil');
   }
 
   return (
     <>
-      <NavBar showProfile={showProfile} onProfileClick={onLogoClick} onLogoClick={showMain}/>
+      <NavBar onProfileClick={onLogoClick} onLogoClick={showMain}/>
         <main>
-        {showProfile && <div>
-        <SearchBar/>
-        <GameList/>
+        {section === 'perfil' && <div>
+        <SearchBar setSearchTerm={setSearchTerm}/>
+        <GameList searchTerm={searchTerm} />
         </div>}
-        {!showProfile && <Profile/>}
+        {section === 'posts' && <Profile/>}
       </main>
     </>
   )

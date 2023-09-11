@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 
 function LikesButton(){    
-    const [counter, setCounter] = useState(0);    
+    const [likes, setLikes] = useState(0);    
     return(
         <button 
         onClick={() => {        
-            setCounter(counter+1);
+            setLikes(likes+1);
         }} 
         className="btn btn-danger"
         ><i className="bi bi-heart-fill m-2"></i>
-         {counter}
+         {likes}
         </button>
     );
 }
