@@ -5,26 +5,29 @@ import SearchBar from './components/searchBar';
 import Profile from './components/profile';
 
 function App() {
-  const [section, setSection] = useState('perfil');
+  const [section, setSection] = useState('posts');
   const [searchTerm, setSearchTerm] = useState("");
 
   const onLogoClick = () => {
-    setSection('posts');
+    setSection('perfil');
   }
 
   const showMain = () => {
-    setSection('perfil');
+    setSection('posts');
   }
 
   return (
     <>
       <NavBar onProfileClick={onLogoClick} onLogoClick={showMain}/>
         <main>
-        {section === 'perfil' && <div>
+        {section === 'posts' && <div>
         <SearchBar setSearchTerm={setSearchTerm}/>
         <GameList searchTerm={searchTerm} />
         </div>}
-        {section === 'posts' && <Profile/>}
+        {section === 'perfil' && <Profile 
+        image="https://static.vecteezy.com/system/resources/thumbnails/005/544/718/small/profile-icon-design-free-vector.jpg" 
+        name="Sergio Pedraza" 
+        description="Desarrollador BackEnd"/>}
       </main>
     </>
   )
