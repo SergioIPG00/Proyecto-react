@@ -6,15 +6,7 @@ export function validateLogin(username, password) {
         password: password
     });
 
-    return axios({
-        method: 'POST',
-        url: 'http://three-points.herokuapp.com/api/login',
-        data: jsonData,
-        mode: 'cors',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    })
+    return axios.post('/api/login', jsonData)
     .then((response) => {
         const token = response.data.token; 
         if (token) {
