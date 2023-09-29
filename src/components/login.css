@@ -38,3 +38,12 @@
 .login-container button:hover {
     background-color: #0056b3;
 }
+
+.alert-error {
+    padding: 15px;
+    background-color: #D97373; /* Red */
+    color: white;
+    margin: 10px 0;
+    border-radius: 4px;
+
+}

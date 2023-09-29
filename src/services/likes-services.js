@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-export function getGames(){
+export function postLikes(id){
     var token  = localStorage.getItem('token');
     return axios({
-        method: 'get',
-        url: 'https://three-points.herokuapp.com/api/posts',
+        method: 'post',
+        url: 'https://three-points.herokuapp.com/api/posts/'+id+'/like',
         headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${token}`

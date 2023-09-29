@@ -13,9 +13,8 @@ function GameList({ searchTerm }) {
         return <div>loading...</div>;
     }
 
-    const gamesArray = Object.values(games);
-    const filteredGames = gamesArray.filter(game => 
-        game.title.toLowerCase().includes(searchTerm.toLowerCase())
+    const filteredGames = games.filter(game => 
+        game.author.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
     return (
@@ -23,11 +22,11 @@ function GameList({ searchTerm }) {
             {filteredGames.map((game) => (
                 <Game
                     key={game.id}
-                    title={game.title}
-                    platform={game.platform}
-                    genre={game.genre}
-                    release_date={game.release_date}
+                    author={game.author.name}
+                    text={game.text}
+                    likes={game.likes}
                     image={game.image}
+                    id={game.id}
                 />
             ))}
         </div>

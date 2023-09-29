@@ -11,8 +11,8 @@ function Login({ onLoginSuccess }) {
         e.preventDefault();
         
         try {
-            const data = await validateLogin(username, password);            
-            localStorage.setItem('token', data.token);
+            const data = await validateLogin(username, password);
+            localStorage.setItem('token', data.data.token);
             setMessage('Login exitoso!');
             if (onLoginSuccess) {
                 onLoginSuccess();
@@ -25,6 +25,7 @@ function Login({ onLoginSuccess }) {
     return (
         <div className='login-container'>
             <form onSubmit={handleSubmit}>
+                {message && <p className='alert-error'>{message}</p>}
                 <h2>Login</h2>
                 <input
                     type="text"
@@ -39,8 +40,7 @@ function Login({ onLoginSuccess }) {
                     onChange={(e) => setPassword(e.target.value)}
                 />
                 <button type="submit">Login</button>
-            </form>
-            {message && <p>{message}</p>}
+            </form>            
         </div>
     );
 }

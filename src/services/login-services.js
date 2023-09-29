@@ -6,13 +6,13 @@ export function validateLogin(username, password) {
         password: password
     });
 
-    return axios.post('/api/login', jsonData)
-    .then((response) => {
-        const token = response.data.token; 
-        if (token) {
-            localStorage.setItem('token', token);
+    return axios({
+        method: 'post',
+        url: 'https://three-points.herokuapp.com/api/login',
+        data: jsonData,
+        headers: {
+            'Content-Type': 'application/json'
         }
-        return response;
     })
     .catch((error) => {
         console.error("Error:", error);
